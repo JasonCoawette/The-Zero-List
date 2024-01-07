@@ -1,0 +1,128 @@
+/* GLOBAL DEFAULTS */
+@import url('./assets/fonts/WEB/css/satoshi.css');
+
+:root {
+
+    /*MAIN COLOR STYLES*/
+
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-system-blue: #0077FF;
+    --color-pink: #FF00D6;
+    --color-purple: #8A00FF;
+    --color-text-grey: #ADADAD;
+    --color-border-grey: #D7D7D7;
+    --color-field-grey: #F1F1F1;
+
+    /*MAIN GRADIENT COLOR STYLES*/
+
+    --primary-gradient-100p: 
+        linear-gradient(
+            90deg, 
+            #00c2ff 0%, 
+            #ff00d6 100%
+        )
+    ;
+    --primary-gradient-40p: 
+        linear-gradient(
+            90deg, 
+            #00c2ff66 0%, 
+            #ff00d666 100%
+        )
+    ;
+    --primary-gradient-10p: 
+        linear-gradient(
+            90deg, 
+            #00c2ff1a 0%, 
+            #ff00d61a 100%
+        )
+    ;
+
+    /*RANK COLOR STYLES*/
+
+    --pathfinder-gradient: 
+        linear-gradient(
+            90deg, 
+            #B8B8B8 0%, 
+            #686767 100%
+        )
+    ;
+    --innovator-gradient: 
+        linear-gradient(
+            90deg, 
+            #FFC0F5 0%, 
+            #FF00D6 100%
+        )
+    ;
+    --specialist-gradient: 
+        linear-gradient(
+            90deg, 
+            #00FFD1 0%, 
+            #00B2FF 100%
+        )
+    ;
+    --strategist-gradient: 
+        linear-gradient(
+            90deg, 
+            #0057FF 0%, 
+            #00C2FF 100%
+        )
+    ;
+    --disruptor-gradient: 
+        linear-gradient(
+            90deg, 
+            #2400FF 0%, 
+            #07F 100%
+        )
+    ;
+    --sovereign-gradient: 
+        linear-gradient(
+            90deg, 
+            #AD86FF 0%, 
+            #5200FF 100%
+        )
+    ;
+    --emperor-gradient: 
+        linear-gradient(
+            90deg, 
+            #000000 0%, 
+            #000000 100%
+        )
+    ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Satoshi";
+}
+
+h1 {
+    font-family: "Satoshi", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: normal;
+    letter-spacing: 24%;
+    color: var(--color-black);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: "Satoshi", sans-serif;
+    font-weight: 400;
+    font-size: 0.88rem;
+    line-height: normal;
+    color: var(--color-text-grey);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: "Satoshi", sans-serif;
+    font-weight: 400;
+    font-size: 0.88rem;
+    line-height: normal;
+    color: var(--color-text-grey);
+    text-align: center;
+}
